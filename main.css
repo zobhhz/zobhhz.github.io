@@ -1,0 +1,108 @@
+/*
+    CCAPDEV Exercise 1 1 A.Y. 2020-2021 Term 2
+    Name: Alyssa Palmares
+    Section: S13
+*/
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: whitesmoke;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: coral;
+    text-decoration: underline;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4;
+}
+
+#title {
+    display: flex;
+}
+
+#title-name {
+    margin-top: 0;
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: auto;
+    flex-direction: row;
+}
+
+.link {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.content {
+    display: flex;
+}
+
+#profile {
+    height: 250px;
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: row;
+}
+
+.home-text {
+    font-size: 22px;
+    color: black;
+    font-weight: 300;
+    flex-direction: column;
+}
+
+.text {
+    margin: auto;
+    margin-left: 20px;
+}
+
+.content-title {
+    font-size: 24px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+#contact {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 0;
+}
+
+#copyright {
+    margin-top: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+}
