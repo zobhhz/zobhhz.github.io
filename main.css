@@ -25,6 +25,10 @@ a:hover {
     margin-top: 4;
 }
 
+.works-header {
+    margin-left: 40px;
+}
+
 #title {
     display: flex;
 }
@@ -84,7 +88,7 @@ a:hover {
 .footer {
     display: flex;
     flex-direction: row;
-    margin-bottom: 4;
+    margin-bottom: 20px;
 }
 
 #contact {
@@ -131,6 +135,25 @@ a:hover {
 
     .text {
         margin-left: 0px;
+    }
+
+    .home-text {
+        font-size: medium;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-align: justify;
+    }
+
+    .works-header {
+        margin-left: 0px;
+    }
+
+    ul {
+        padding-left: 0px;
+    }
+
+    li {
+        text-align: left;
     }
 
     .footer {
