@@ -1,3 +1,5 @@
+import { SpeedInsights } from '@vercel/speed-insights/next';
+import { Analytics } from '@vercel/analytics/next';
 import Header from "@/components/Header";
 import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
@@ -25,6 +27,8 @@ export default function RootLayout({
       >
         <Header/>
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
