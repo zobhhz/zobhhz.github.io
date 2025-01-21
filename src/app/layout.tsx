@@ -2,13 +2,15 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/next';
 import Header from "@/components/Header";
 import type { Metadata } from "next";
-import { Open_Sans } from "next/font/google";
+import {Atkinson_Hyperlegible } from "next/font/google";
 import "./globals.css";
 import Footer from '@/components/Footer';
 
-const openSans = Open_Sans({
-  variable: "--font-open-sans",
-  subsets: ["latin"],
+const atkinsonHyperlegible = Atkinson_Hyperlegible({
+  weight: ['400', '700'], // Regular (400) and Bold (700)
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
 });
 
 export const metadata: Metadata = {
@@ -24,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${openSans.variable} antialiased px-6`}
+        className={`${atkinsonHyperlegible.className} antialiased px-6`}
       >
         <Header/>
         {children}
