@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col md:flex-row gap-8 row-start-2 items-center">
+    <div className="flex flex-col items-center justify-center md:min-h-screen p-8 sm:p-20">
+      <main className="flex flex-col md:flex-row gap-8 items-center">
         <Image
           src="/profile.jpg"
           alt="Picture of Alyssa"
@@ -15,7 +15,7 @@ export default function Home() {
         <div className="flex gap-4 items-start flex-col">
           <h1 className="font-bold text-2xl lg:text-4xl">Hi, {`I'm Alyssa!`}</h1>
           <p className="text-justify lg:text-2xl">
-            I have recently graduated from <a className="hover:underline hover:underline-offset-4 text-coral" href="https://www.dlsu.edu.ph/">
+            I have recently graduated from <a className="underline underline-offset-4 decoration-coral hover:underline hover:underline-offset-4 hover:text-coral" href="https://www.dlsu.edu.ph/">
             De La Salle University (DLSU)</a> with a {`bachelor's`} degree in Computer Science, majoring in Software Technology. I am currently 
             looking for roles related to front-end development and UI/UX design or research. If you are aware of any opportunities where I might 
             be a good fit, feel free to contact me!

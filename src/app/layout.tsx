@@ -1,6 +1,6 @@
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/next';
-import Header from "@/components/Header";
+// import Header from "@/components/Header";
 import type { Metadata } from "next";
 import {Atkinson_Hyperlegible } from "next/font/google";
 import "./globals.css";
@@ -28,7 +28,7 @@ export default function RootLayout({
       <body
         className={`${atkinsonHyperlegible.className} antialiased px-6`}
       >
-        <Header/>
+        {/* <Header/> */}
         {children}
         <Footer/>
         <Analytics />

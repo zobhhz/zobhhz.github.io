@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Footer() {
     return(
-        <footer className="flex flex-col md:flex-row justify-between items-center py-16 md:py-6 gap-4 md:gap-0">
+        <footer className="flex flex-col md:flex-row justify-between items-center pb-16 md:pb-6 gap-4 md:gap-0">
             <nav>
                 <ul className="flex flex-col md:flex-row space-x-6">
                     <li className="font-bold">Connect with me!</li>
                     <li>
-                        <a className="flex items-center gap-2 hover:underline hover:underline-offset-4" 
+                        <a className="flex items-center gap-2 hover:underline hover:underline-offset-4 hover:text-coral" 
                         href="mailto:alyssajayepalmares@gmail.com" target="_blank" rel="noopener noreferrer">
                             <Image
                                 aria-hidden
@@ -20,7 +20,7 @@ export default function Footer() {
                         </a>
                     </li>
                     <li>
-                        <a className="flex items-center gap-2 hover:underline hover:underline-offset-4" 
+                        <a className="flex items-center gap-2 hover:underline hover:underline-offset-4 hover:text-coral" 
                         href="https://www.linkedin.com/in/alyssapalmares/" target="_blank" rel="noopener noreferrer">
                             <Image
                                 aria-hidden
@@ -33,7 +33,7 @@ export default function Footer() {
                         </a>
                     </li>
                     <li>
-                        <a className="flex items-center gap-2 hover:underline hover:underline-offset-4" 
+                        <a className="flex items-center gap-2 hover:underline hover:underline-offset-4 hover:text-coral" 
                         href="https://github.com/zobhhz" target="_blank" rel="noopener noreferrer">
                             <Image
                                 aria-hidden
