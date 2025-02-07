@@ -1,0 +1,28 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "User Experience Society - DLSU",
+            "url": "https://uxsocietytaft.org/"
+        },
+        {
+            "id": 2,
+            "name": "Pixel8 Web Consultancy and Solutions Inc.",
+            "url": "https://pixel8.ph/"
+        }
+    ],
+    "publications": [
+        {
+            "id": 1,
+            "title": "Generating interactive stories with ChatGPT toteach Filipino values",
+            "conf": "ICCE 2023",
+            "url": "https://library.apsce.net/index.php/ICCE/article/view/4738"
+        },
+        {
+            "id": 2,
+            "title": "Kulturuan: Learning about Hospitality from LLM-Generated Interactive Stories",
+            "conf": "AsianCHI 2024",
+            "url": "https://www.asianchi.net/"
+        }
+    ]
+}
