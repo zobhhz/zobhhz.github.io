@@ -12,6 +12,8 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         'coral': '#ff7f50',
+        'whitesmoke': '#f5f5f5',
+        'smokeyblack': '#0f0a0a'
       },
     },
   },

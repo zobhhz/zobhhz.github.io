@@ -14,7 +14,7 @@ export default function Home() {
         />
         <div className="flex gap-4 items-start flex-col">
           <h1 className="font-bold text-2xl lg:text-4xl">Hi, {`I'm Alyssa!`}</h1>
-          <p className="text-justify lg:text-2xl">
+          <p className="text-justify text-lg lg:text-2xl">
             I have recently graduated from <a className="underline underline-offset-4 decoration-coral hover:underline hover:underline-offset-4 hover:text-coral" href="https://www.dlsu.edu.ph/">
             De La Salle University (DLSU)</a> with a {`bachelor's`} degree in Computer Science, majoring in Software Technology. I am currently 
             looking for roles related to front-end development and UI/UX design or research. If you are aware of any opportunities where I might 
