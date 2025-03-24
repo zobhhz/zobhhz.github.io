@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center md:min-h-screen p-8 sm:p-20">
+    <div className="flex flex-col items-center justify-center md:min-h-screen p-8 sm:p-20 max-w-7xl">
       <main className="flex flex-col md:flex-row gap-8 items-center">
         <Image
-          src="/profile.jpg"
+          src="/images/profile.jpg"
           alt="Picture of Alyssa"
           width={250}
           height={250}
@@ -15,7 +15,7 @@ export default function Home() {
         <div className="flex gap-4 items-start flex-col">
           <h1 className="font-bold text-2xl lg:text-4xl">Hi, {`I'm Alyssa!`}</h1>
           <p className="text-justify text-lg lg:text-2xl">
-            I have recently graduated from <a className="underline underline-offset-4 decoration-coral hover:underline hover:underline-offset-4 hover:text-coral" href="https://www.dlsu.edu.ph/">
+            I have recently graduated from <a className="underline underline-offset-4 decoration-coral" href="https://www.dlsu.edu.ph/">
             De La Salle University (DLSU)</a> with a {`bachelor's`} degree in Computer Science, majoring in Software Technology. I am currently 
             looking for roles related to front-end development and UI/UX design or research. If you are aware of any opportunities where I might 
             be a good fit, feel free to contact me!
