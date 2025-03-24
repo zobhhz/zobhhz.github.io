@@ -1,0 +1,29 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "name": "User Experience Society - DLSU",
+            "role": "Frontend Developer",
+            "url": "https://uxsocietytaft.org/",
+            "img": "/images/uxsocdlsu.png"
+        }
+    ],
+    "publications": [
+        {
+            "id": 1,
+            "title": "Generating interactive stories with ChatGPT to teach Filipino values",
+            "conf": "ICCE 2023",
+            "role": "Co-author",
+            "url": "https://library.apsce.net/index.php/ICCE/article/view/4738",
+            "img": "/images/icce.png"
+        },
+        {
+            "id": 2,
+            "title": "Kulturuan: Learning about Hospitality from LLM-Generated Interactive Stories",
+            "conf": "AsianCHI 2024",
+            "role": "Co-author",
+            "url": "https://www.asianchi.net/",
+            "img": "/images/asianchi.png"
+        }
+    ]
+}
