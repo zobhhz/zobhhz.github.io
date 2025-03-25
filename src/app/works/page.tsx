@@ -7,7 +7,7 @@ export default function Works() {
             {/* Projects */}
             <div className="flex flex-col gap-4 items-center w-full">
                 <h1 className="font-bold text-2xl lg:text-4xl">Projects</h1>
-                <ul className="flex flex-col md:flex-row flex-wrap justify-center gap-6 w-full">
+                <ul className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-6 w-full">
                     {works.projects.map((proj) => (
                         <Card
                         key = {proj.id}

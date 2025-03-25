@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${atkinsonHyperlegible.className} antialiased px-6`}
+        className={`${atkinsonHyperlegible.className} antialiased px-6 flex flex-col min-h-screen`}
       >
         <Header/>
         {children}
