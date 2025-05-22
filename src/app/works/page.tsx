@@ -1,21 +1,21 @@
-import Card from "@/components/Card";
+import { CardExternal, CardInternal } from "@/components/Card";
 import works from "@/data/works.json";
 
 export default function Works() {
-    return(
+    return (
         <div className="flex flex-col items-center justify-center p-8 sm:p-20 space-y-20">
             {/* Projects */}
             <div className="flex flex-col gap-4 items-center w-full">
                 <h1 className="font-bold text-2xl lg:text-4xl">Projects</h1>
                 <ul className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-6 w-full">
                     {works.projects.map((proj) => (
-                        <Card
-                        key = {proj.id}
-                        title={proj.name} 
-                        subtitle={proj.role} 
-                        img={proj.img} 
-                        url={proj.url} 
-                    />
+                        <CardInternal
+                            key={proj.id}
+                            title={proj.name}
+                            subtitle={proj.role}
+                            img={proj.img}
+                            url={proj.url}
+                        />
                     ))}
                 </ul>
             </div>
@@ -24,12 +24,12 @@ export default function Works() {
                 <h1 className="font-bold text-2xl lg:text-4xl">Publications</h1>
                 <ul className="flex flex-col md:flex-row flex-wrap justify-center gap-6">
                     {works.publications.map((pub) => (
-                        <Card
-                            key = {pub.id}
-                            title={pub.title} 
-                            subtitle={`${pub.conf} • ${pub.role}`} 
-                            img={pub.img} 
-                            url={pub.url} 
+                        <CardExternal
+                            key={pub.id}
+                            title={pub.title}
+                            subtitle={`${pub.conf} • ${pub.role}`}
+                            img={pub.img}
+                            url={pub.url}
                         />
                     ))}
                 </ul>
