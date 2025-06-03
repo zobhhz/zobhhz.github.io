@@ -8,7 +8,16 @@ export default function Works() {
             <div className="flex flex-col gap-4 items-center w-full">
                 <h1 className="font-bold text-2xl lg:text-4xl">Projects</h1>
                 <ul className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-6 w-full">
-                    {works.projects.map((proj) => (
+                    {works.externalProjects.map((proj) => (
+                        <CardExternal
+                            key={proj.id}
+                            title={proj.name}
+                            subtitle={proj.role}
+                            img={proj.img}
+                            url={proj.url}
+                        />
+                    ))}
+                    {works.internalProjects.map((proj) => (
                         <CardInternal
                             key={proj.id}
                             title={proj.name}

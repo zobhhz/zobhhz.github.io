@@ -1,11 +1,27 @@
 {
-    "projects": [
+    "externalProjects": [
         {
             "id": 1,
+            "name": "Ilang-Ilang Restaurant Website (In Development)",
+            "role": "UI/UX Designer, Developer",
+            "url": "https://ilangilang.vercel.app/",
+            "img": "/images/ilangilang.jpg"
+        },
+        {
+            "id": 2,
             "name": "User Experience Society - DLSU",
             "role": "Frontend Developer",
             "url": "https://uxsocietytaft.org/",
             "img": "/images/uxsocdlsu.png"
+        }
+    ],
+    "internalProjects": [
+        {
+            "id": 1,
+            "name": "Pixel8 Web Consultancy & Solutions Inc.",
+            "role": "UI/UX Design Intern",
+            "url": "/works/pixel8",
+            "img": "/images/pixel8/pixel8.jpg"
         }
     ],
     "publications": [
