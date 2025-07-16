@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description: "Alyssa's Personal Website and Portfolio",
   openGraph: {
     type: "website",
-    images: '/ograph.png',
+    images: '/opengraph-image.png',
     title: "Alyssa Palmares",
     description: "Alyssa's Personal Website and Portfolio",
   }

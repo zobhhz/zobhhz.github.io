@@ -2,9 +2,9 @@
     "externalProjects": [
         {
             "id": 1,
-            "name": "Ilang-Ilang Restaurant Website (In Development)",
+            "name": "Ilang-Ilang Restaurant Website",
             "role": "UI/UX Designer, Developer",
-            "url": "https://ilangilang.vercel.app/",
+            "url": "https://ilangilangrestaurant.com/",
             "img": "/images/ilangilang.jpg"
         },
         {
