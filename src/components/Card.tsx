@@ -10,13 +10,15 @@ type CardData = {
 
 export function CardExternal(data: Readonly<CardData>) {
     return (
-        <a href={data.url} target="_blank" rel="noopener noreferrer" className="flex flex-col h-full w-full sm:w-96 min-h-[15rem] overflow-hidden border border-gray-300 rounded-lg shadow-sm hover:shadow-lg hover:bg-whitesmoke hover:no-underline transition-all duration-300">
+        <a href={data.url} target="_blank" rel="noopener noreferrer" className="flex flex-col h-full w-full sm:w-96 min-h-[15rem] overflow-hidden border border-gray-300 rounded-lg shadow-sm hover:shadow-lg hover:bg-whitesmoke hover:no-underline transition-all duration-150">
             <div className="relative w-full aspect-video">
                 <Image
                     src={data.img}
                     alt={data.title}
                     fill
                     className="object-cover"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 40vw"
+                    priority
                 />
             </div>
             <div className="flex flex-col flex-grow p-4 border-t border-gray-300">
@@ -29,13 +31,14 @@ export function CardExternal(data: Readonly<CardData>) {
 
 export function CardInternal(data: Readonly<CardData>) {
     return (
-        <Link href={data.url} className="flex flex-col h-full w-full sm:w-96 min-h-[15rem] overflow-hidden border border-gray-300 rounded-lg shadow-sm hover:shadow-lg hover:bg-whitesmoke hover:no-underline transition-all duration-300">
+        <Link href={data.url} className="flex flex-col h-full w-full sm:w-96 min-h-[15rem] overflow-hidden border border-gray-300 rounded-lg shadow-sm hover:shadow-lg hover:bg-whitesmoke hover:no-underline transition-all duration-150">
             <div className="relative w-full aspect-video">
                 <Image
                     src={data.img}
                     alt={data.title}
                     fill
                     className="object-cover"
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw, 40vw"
                 />
             </div>
             <div className="flex flex-col flex-grow p-4 border-t border-gray-300">

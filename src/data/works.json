@@ -2,14 +2,7 @@
     "externalProjects": [
         {
             "id": 1,
-            "name": "Ilang-Ilang Restaurant Website",
-            "role": "UI/UX Designer, Developer",
-            "url": "https://ilangilangrestaurant.com/",
-            "img": "/images/ilangilang.jpg"
-        },
-        {
-            "id": 2,
-            "name": "User Experience Society - DLSU",
+            "name": "User Experience Society - Taft",
             "role": "Frontend Developer",
             "url": "https://uxsocietytaft.org/",
             "img": "/images/uxsocdlsu.png"
@@ -18,6 +11,13 @@
     "internalProjects": [
         {
             "id": 1,
+            "name": "Ilang-Ilang Restaurant Website",
+            "role": "UI/UX Designer & Developer",
+            "url": "/works/ilangilang",
+            "img": "/images/ilangilang.jpg"
+        },
+        {
+            "id": 2,
             "name": "Pixel8 Web Consultancy & Solutions Inc.",
             "role": "UI/UX Design Intern",
             "url": "/works/pixel8",

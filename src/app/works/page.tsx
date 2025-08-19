@@ -5,18 +5,9 @@ export default function Works() {
     return (
         <div className="flex flex-col items-center justify-center p-8 sm:p-20 space-y-20">
             {/* Projects */}
-            <div className="flex flex-col gap-4 items-center w-full">
+            <div className="flex flex-col gap-4 lg:gap-8 items-center w-full">
                 <h1 className="font-bold text-2xl lg:text-4xl">Projects</h1>
                 <ul className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-6 w-full">
-                    {works.externalProjects.map((proj) => (
-                        <CardExternal
-                            key={proj.id}
-                            title={proj.name}
-                            subtitle={proj.role}
-                            img={proj.img}
-                            url={proj.url}
-                        />
-                    ))}
                     {works.internalProjects.map((proj) => (
                         <CardInternal
                             key={proj.id}
@@ -26,6 +17,16 @@ export default function Works() {
                             url={proj.url}
                         />
                     ))}
+                    {works.externalProjects.map((proj) => (
+                        <CardExternal
+                            key={proj.id}
+                            title={proj.name}
+                            subtitle={proj.role}
+                            img={proj.img}
+                            url={proj.url}
+                        />
+                    ))}
+
                 </ul>
             </div>
             {/* Publications */}

@@ -15,6 +15,7 @@ const atkinsonHyperlegible = Atkinson_Hyperlegible({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://zobhhz.github.io'),
   title: "Alyssa Palmares",
   description: "Alyssa's Personal Website and Portfolio",
   openGraph: {
@@ -22,6 +23,7 @@ export const metadata: Metadata = {
     images: '/opengraph-image.png',
     title: "Alyssa Palmares",
     description: "Alyssa's Personal Website and Portfolio",
+    url: 'https://zobhhz.github.io',
   }
 };
 
@@ -33,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${atkinsonHyperlegible.className} antialiased px-6 flex flex-col min-h-screen`}
+        className={`${atkinsonHyperlegible.className} antialiased flex flex-col min-h-screen`}
       >
         <Header />
         {children}

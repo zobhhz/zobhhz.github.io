@@ -7,7 +7,7 @@ export default function Home() {
         <Image
           src="/images/profile.jpg"
           alt="Picture of Alyssa"
-          className="rounded-md"
+          className="rounded-md shadow-sm"
           width={250}
           height={250}
           unoptimized={true}
@@ -16,9 +16,9 @@ export default function Home() {
         <div className="flex gap-4 items-center md:items-start flex-col">
           <h1 className="font-bold text-2xl lg:text-4xl">Hi, {`I'm Alyssa!`}</h1>
           <p className="text-justify text-lg lg:text-2xl">
-            I have recently graduated from <a className="underline underline-offset-4 decoration-coral" href="https://www.dlsu.edu.ph/">
-              De La Salle University (DLSU)</a> with a {`bachelor's`} degree in Computer Science, majoring in Software Technology. I am currently
-            looking for roles related to front-end development and UI/UX design or research. If you are aware of any opportunities where I might
+            I&apos;m a <a className="underline underline-offset-4 decoration-coral" href="https://www.dlsu.edu.ph/">
+              De La Salle University (DLSU)</a> graduate with a {`bachelor's`} degree in Computer Science, majoring in Software Technology. I am currently
+            looking for roles related to front-end development and UI/UX design or research. If you know of any opportunities where I might
             be a good fit, feel free to contact me!
           </p>
           <a
