@@ -1,4 +1,4 @@
-import { CardExternal, CardInternal } from "@/components/Card";
+import { Card, CardExternal, CardInternal } from "@/components/Card";
 import works from "@/data/works.json";
 
 export default function Works() {
@@ -30,7 +30,7 @@ export default function Works() {
                 </ul>
             </div>
             {/* Publications */}
-            <div className="flex flex-col items-center gap-4">
+            <div className="flex flex-col gap-4 lg:gap-8 items-center w-full">
                 <h1 className="font-bold text-2xl lg:text-4xl">Publications</h1>
                 <ul className="flex flex-col md:flex-row flex-wrap justify-center gap-6">
                     {works.publications.map((pub) => (
@@ -42,6 +42,18 @@ export default function Works() {
                             url={pub.url}
                         />
                     ))}
+                </ul>
+            </div>
+            {/* Playgroud */}
+            <div className="flex flex-col gap-4 lg:gap-8 items-center w-full">
+                <h1 className="font-bold text-2xl lg:text-4xl">Playground</h1>
+                <ul className="flex flex-col md:flex-row flex-wrap justify-center gap-6">
+                    <Card
+                        title={"Parking Lot Management System"}
+                        subtitle={"Web app for tracking vehicle entries/exits, fee calculation, and continuous parking management."}
+                        img={""}
+                        url={"/works/parking-system"}
+                    />
                 </ul>
             </div>
         </div>
