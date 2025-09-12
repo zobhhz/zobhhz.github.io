@@ -4,7 +4,7 @@ export default function Page() {
     const details = [
         {
             title: "Frontend",
-            value: "TypeScript, React, Next.js, TailwindCSS, shadcn/ui",
+            value: "TypeScript, Next.js, TailwindCSS, shadcn/ui",
         },
         {
             title: "Logic/Backend",
@@ -22,7 +22,7 @@ export default function Page() {
             <div className="w-full max-w-7xl mx-auto p-10 sm:px-20 space-y-4">
                 <h2 className="font-bold text-xl">Summary</h2>
                 <p className="text-lg">
-                    This project is a web-based parking management system built with Next.js and TypeScript. It assigns parking slots
+                    This project is a web-based parking management system built with Next.js (React-based) and TypeScript. It assigns parking slots
                     based on vehicle size and entry point, tracks entries and exits, and calculates parking fees following business rules.
                     I also explored the shadcn/ui component library for the first time to build a clean, reusable interface.
                 </p>

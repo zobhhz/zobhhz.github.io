@@ -91,7 +91,9 @@ export default function Footer() {
                 </nav>
 
             </div>
-            <h1 className="text-center">© 2025 Alyssa Palmares. Made with 🍵</h1>
+            <p className="text-center">
+                © 2025 Alyssa Palmares. <br className="md:hidden" />
+                Made with Next.js and TypeScript, <br className="md:hidden" />including lots of 🍵</p>
         </footer>
     );
 }

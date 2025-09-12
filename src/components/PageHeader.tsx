@@ -4,13 +4,13 @@ type PageHeaderProps = {
 }
 
 export default function PageHeader({ title, details }: Readonly<PageHeaderProps>) {
-
+    const colClass = details.length >= 4 ? "lg:grid-cols-4" : "lg:grid-cols-3";
     return (
         <section className="w-full bg-coral/10">
             <div className="flex flex-col items-start justify-center p-10 sm:p-20 space-y-10 max-w-7xl mx-auto">
                 <h1 className="font-bold text-2xl lg:text-4xl">{title}</h1>
                 {/* DETAILS */}
-                <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-${details.length} gap-4`}>
+                <div className={`grid grid-cols-1 sm:grid-cols-2 ${colClass} gap-4`}>
                     {details.map((detail => (
                         <ul key={detail.title} className="flex flex-col">
                             <li className="font-bold">{detail.title}</li>
