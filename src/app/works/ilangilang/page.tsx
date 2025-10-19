@@ -4,7 +4,7 @@ export default function Page() {
     const details = [
         {
             title: "Role",
-            value: "UI/UX Designer & Developer",
+            value: "Full Stack Developer, UI/UX Designer",
         },
         {
             title: "Duration",
@@ -12,7 +12,7 @@ export default function Page() {
         },
         {
             title: "Team",
-            value: "Independent (client-based)",
+            value: "Freelance Project",
         },
         {
             title: "Tech Stack",

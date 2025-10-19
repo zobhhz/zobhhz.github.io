@@ -17,9 +17,9 @@ export default function Home() {
           <h1 className="font-bold text-2xl lg:text-4xl">Hi, {`I'm Alyssa!`}</h1>
           <p className="text-justify text-lg lg:text-2xl">
             I&apos;m a <a className="underline underline-offset-4 decoration-coral" href="https://www.dlsu.edu.ph/">
-              De La Salle University (DLSU)</a> graduate with a {`bachelor's`} degree in Computer Science, majoring in Software Technology. I am currently
-            looking for roles related to front-end development and UI/UX design or research. If you know of any opportunities where I might
-            be a good fit, feel free to contact me!
+              DLSU</a> graduate with a {`bachelor's`} degree in Computer Science, majoring in Software Technology.
+            I love bringing ideas to life through code and design, especially through front-end and full stack development.
+            I&apos;m excited to start my career in web development and UI/UX design! Feel free to reach out if you&apos;d like to collaborate or connect 💗
           </p>
           <a
             href="https://drive.google.com/file/d/1nGFwNCS31xuO0OXrC7JKvGNBYQwz91N7/view?usp=sharing"

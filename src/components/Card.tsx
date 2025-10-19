@@ -54,7 +54,8 @@ export function Card(data: Readonly<CardData>) {
         <Link href={data.url} className="flex flex-col h-full w-full sm:w-96 border border-gray-300 rounded-lg shadow-sm hover:shadow-lg hover:bg-whitesmoke hover:no-underline transition-all duration-150">
             <div className="flex flex-col flex-grow p-4 border-gray-300">
                 <h1 className="align-right text-smokeyblack">{data.title}</h1>
-                <h2 className="italic text-gray-500">{data.subtitle}</h2>
+                <p className="text-coral text-sm mb-2">TypeScript, Next.js, TailwindCSS, shadcn/ui</p>
+                <p className="italic text-gray-500">{data.subtitle}</p>
             </div>
         </Link>
     );
