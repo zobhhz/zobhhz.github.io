@@ -16,18 +16,18 @@ export default function Home() {
         <div className="flex gap-4 items-center md:items-start flex-col">
           <h1 className="font-bold text-2xl lg:text-4xl">Hi, {`I'm Alyssa!`}</h1>
           <p className="text-justify text-lg lg:text-2xl">
-            I&apos;m a <a className="underline underline-offset-4 decoration-coral" href="https://www.dlsu.edu.ph/">
+            I&apos;m a <a className="decoration-coral" href="https://www.dlsu.edu.ph/">
               DLSU</a> graduate with a {`bachelor's`} degree in Computer Science, majoring in Software Technology.
-            I love bringing ideas to life through code and design, especially through front-end and full stack development.
+            I love bringing ideas to life through code and design, especially through front-end and full-stack development.
             I&apos;m excited to start my career in web development and UI/UX design! Feel free to reach out if you&apos;d like to collaborate or connect 💗
           </p>
           <a
-            href="https://drive.google.com/file/d/1nGFwNCS31xuO0OXrC7JKvGNBYQwz91N7/view?usp=sharing"
+            href="https://drive.google.com/file/d/1tSoHUutWRxVpNzRC9fHNX6hQ8CUQwEAp/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="align-center px-4 py-2 bg-coral text-white rounded text-center hover:text-white inline-block"
           >
-            View CV
+            View Resume
           </a>
         </div>
       </main>

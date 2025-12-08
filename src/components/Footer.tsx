@@ -93,7 +93,7 @@ export default function Footer() {
             </div>
             <p className="text-center text-gray-500">
                 © 2025 Alyssa Palmares. <br className="md:hidden" />
-                Made with Next.js and TypeScript, <br className="md:hidden" />and lots of matcha 🍵</p>
+                Made with Next.js, TypeScript, <br className="md:hidden" />and lots of matcha 🍵</p>
         </footer>
     );
 }

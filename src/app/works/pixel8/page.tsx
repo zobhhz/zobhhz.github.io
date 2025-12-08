@@ -27,21 +27,21 @@ export default function Page() {
                 {/* SUMMARY */}
                 <div className="space-y-4">
                     <h2 className="font-bold text-xl">Summary</h2>
-                    <p className="text-lg">
+                    <p className="text-lg leading-snug lg:leading-normal">
                         I was part of a team of design interns focused on creating UI designs based on user flows provided by business analysts.
                         Our work covered both mobile and desktop interfaces across three main projects:
                     </p>
-                    <ul className="list-disc list-inside text-lg">
+                    <ul className="list-disc list-inside text-lg leading-snug lg:leading-normal">
                         <li>A Human Resource Management Information System (HRMIS) focused on payroll features</li>
                         <li>A Project Scope Management System</li>
                         <li>A Retail Inventory System</li>
                     </ul>
-                    <p className="text-lg">
+                    <p className="text-lg leading-snug lg:leading-normal">
                         This internship was my first experience working with an established design system, which included following brand
                         guidelines, a defined color palette, and applying an 8-point pixel grid for layout consistency. It taught me how to
                         design within constraints while still solving user needs and maintaining usability across different screen sizes.
                     </p>
-                    <p className="text-lg">
+                    <p className="text-lg leading-snug lg:leading-normal">
                         Below are selected screenshots of my design contributions across the three projects I worked on during my internship.
                     </p>
                 </div>
