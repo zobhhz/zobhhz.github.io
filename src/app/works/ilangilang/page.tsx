@@ -16,7 +16,7 @@ export default function Page() {
         },
         {
             title: "Tech Stack",
-            value: "TypeScript, Next.js, TailwindCSS, Contentful (REST API)",
+            value: "TypeScript, Next.js, TailwindCSS, Contentful (REST API), Vercel",
         },
     ]
     return (

@@ -14,7 +14,7 @@ export default function PageHeader({ title, details }: Readonly<PageHeaderProps>
                     {details.map((detail => (
                         <ul key={detail.title} className="flex flex-col">
                             <li className="font-bold">{detail.title}</li>
-                            <li >{detail.value}</li>
+                            <li>{detail.value}</li>
                         </ul>
                     )))}
                 </div>
@@ -24,7 +24,7 @@ export default function PageHeader({ title, details }: Readonly<PageHeaderProps>
                         href="https://ilangilangrestaurant.com/"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="align-center px-4 py-2 bg-coral text-white rounded text-center hover:text-white inline-block"
+                        className="align-center px-4 py-2 bg-coral text-white rounded text-center inline-block hover:scale-105 transition-all duration-150"
                     >
                         🔗 View Project
                     </a>
@@ -36,7 +36,7 @@ export default function PageHeader({ title, details }: Readonly<PageHeaderProps>
                             href="https://parking-system-theta-two.vercel.app/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="align-center px-4 py-2 bg-coral text-white rounded text-center hover:text-white inline-block"
+                            className="align-center px-4 py-2 bg-coral text-white rounded text-center inline-block hover:scale-105 transition-all duration-150"
                         >
                             🔗 Live Demo
                         </a>
@@ -44,7 +44,7 @@ export default function PageHeader({ title, details }: Readonly<PageHeaderProps>
                             href="https://github.com/zobhhz/parking-system"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="align-center px-4 py-2 bg-coral text-white rounded text-center hover:text-white inline-block"
+                            className="align-center px-4 py-2 bg-coral text-white rounded text-center inline-block hover:scale-105 transition-all duration-150"
                         >
                             ⚙️ Github Repository
                         </a>

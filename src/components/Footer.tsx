@@ -9,7 +9,7 @@ export default function Footer() {
                     {/* DESKTOP */}
                     <ul className="hidden md:flex flex-col md:flex-row justify-center md:space-x-6 underline underline-offset-4">
                         <li>
-                            <a className="flex items-center gap-2"
+                            <a className="flex items-center gap-2 hover:underline hover:underline-offset-4 hover:text-coral"
                                 href="mailto:alyssajayepalmares@gmail.com" target="_blank" rel="noopener noreferrer">
                                 <Image
                                     aria-hidden
@@ -22,7 +22,7 @@ export default function Footer() {
                             </a>
                         </li>
                         <li>
-                            <a className="flex items-center gap-2"
+                            <a className="flex items-center gap-2 hover:underline hover:underline-offset-4 hover:text-coral"
                                 href="https://www.linkedin.com/in/alyssapalmares/" target="_blank" rel="noopener noreferrer">
                                 <Image
                                     aria-hidden
@@ -35,7 +35,7 @@ export default function Footer() {
                             </a>
                         </li>
                         <li>
-                            <a className="flex items-center gap-2"
+                            <a className="flex items-center gap-2 hover:underline hover:underline-offset-4 hover:text-coral"
                                 href="https://github.com/zobhhz" target="_blank" rel="noopener noreferrer">
                                 <Image
                                     aria-hidden

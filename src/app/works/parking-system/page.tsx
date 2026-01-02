@@ -4,7 +4,7 @@ export default function Page() {
     const details = [
         {
             title: "Frontend",
-            value: "TypeScript, Next.js, TailwindCSS, shadcn/ui",
+            value: "TypeScript, Next.js, TailwindCSS, shadcn/ui, Vercel",
         },
         {
             title: "Logic/Backend",

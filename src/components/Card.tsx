@@ -10,7 +10,7 @@ type CardData = {
 
 export function CardExternal(data: Readonly<CardData>) {
     return (
-        <a href={data.url} target="_blank" rel="noopener noreferrer" className="flex flex-col h-full w-full sm:w-96 min-h-[15rem] overflow-hidden border border-gray-300 rounded-lg shadow-sm hover:shadow-lg hover:bg-whitesmoke hover:no-underline transition-all duration-150">
+        <a href={data.url} target="_blank" rel="noopener noreferrer" className="flex flex-col h-full w-full sm:w-96 min-h-[15rem] overflow-hidden border border-gray-300 rounded-lg shadow-sm hover:shadow-lg hover:bg-whitesmoke hover:no-underline hover:scale-105 transition-all duration-150">
             <div className="relative w-full aspect-video">
                 <Image
                     src={data.img}
@@ -31,7 +31,7 @@ export function CardExternal(data: Readonly<CardData>) {
 
 export function CardInternal(data: Readonly<CardData>) {
     return (
-        <Link href={data.url} className="flex flex-col h-full w-full sm:w-96 min-h-[15rem] overflow-hidden border border-gray-300 rounded-lg shadow-sm hover:shadow-lg hover:bg-whitesmoke hover:no-underline transition-all duration-150">
+        <Link href={data.url} className="flex flex-col h-full w-full sm:w-96 min-h-[15rem] overflow-hidden border border-gray-300 rounded-lg shadow-sm hover:shadow-lg hover:bg-whitesmoke hover:no-underline hover:scale-105 transition-all duration-150">
             <div className="relative w-full aspect-video">
                 <Image
                     src={data.img}
@@ -51,7 +51,7 @@ export function CardInternal(data: Readonly<CardData>) {
 
 export function Card(data: Readonly<CardData>) {
     return (
-        <Link href={data.url} className="flex flex-col h-full w-full sm:w-96 border border-gray-300 rounded-lg shadow-sm hover:shadow-lg hover:bg-whitesmoke hover:no-underline transition-all duration-150">
+        <Link href={data.url} className="flex flex-col h-full w-full sm:w-96 border border-gray-300 rounded-lg shadow-sm hover:shadow-lg hover:bg-whitesmoke hover:no-underline hover:scale-105 transition-all duration-150">
             <div className="flex flex-col flex-grow p-4 border-gray-300">
                 <h1 className="align-right text-smokeyblack">{data.title}</h1>
                 <p className="text-coral text-sm mb-2">TypeScript, Next.js, TailwindCSS, shadcn/ui</p>

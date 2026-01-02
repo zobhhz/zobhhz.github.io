@@ -16,7 +16,7 @@ export default function Header() {
             </h1>
             <nav>
                 <ul className="flex flex-row space-x-6">
-                    <li className="underline underline-offset-4 decoration-coral"><Link href="/works" title="Works">Works</Link></li>
+                    <li className="underline underline-offset-4 decoration-coral hover:text-coral"><Link href="/works" title="Works">Works</Link></li>
                 </ul>
             </nav>
         </header>
