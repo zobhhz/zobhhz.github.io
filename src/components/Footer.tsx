@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 export default function Footer() {
+    const currentYear = new Date().getFullYear();
     return (
         <footer className="flex flex-col lg:flex-row justify-between items-center p-6 pb-16 md:pb-6 gap-4 md:gap-0 text-lg lg:text-base">
             <div className="flex flex-col md:flex-row items-center gap-3 md:gap-6">
@@ -92,8 +93,8 @@ export default function Footer() {
 
             </div>
             <p className="text-center text-gray-500">
-                © 2026 Alyssa Palmares. <br className="md:hidden" />
-                Made with Next.js, TypeScript, <br className="md:hidden" />and lots of matcha 🍵</p>
+                © {currentYear} Alyssa Palmares. <br className="md:hidden" />
+                Hand-coded with Next.js, TypeScript, <br className="md:hidden" />and lots of matcha 🍵</p>
         </footer>
     );
 }
