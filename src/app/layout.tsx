@@ -27,11 +27,8 @@ export const metadata: Metadata = {
   }
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
+  const gtagId = process.env.NEXT_PUBLIC_GTAG_ID;
   return (
     <html lang="en">
       <body
@@ -43,14 +40,14 @@ export default function RootLayout({
         <Analytics />
         <SpeedInsights />
         {/* Google tag (gtag.js) */}
-        <Script id="next" async src='https://www.googletagmanager.com/gtag/js?id=G-66GNBE41L3' />
-        <Script id="next">
+        <Script id="gtag-src" async src={`https://www.googletagmanager.com/gtag/js?id=${gtagId}`} />
+        <Script id="gtag-config">
           {
             `window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
-            gtag('config', 'G-66GNBE41L3');`
+            gtag('config', '${gtagId}');`
           }
         </Script>
       </body>
