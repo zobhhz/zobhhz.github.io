@@ -54,7 +54,7 @@ export default function Page() {
                         href="https://www.figma.com/proto/dLdKa9UZgZJ4nWevNMZYmX/Accessibility-and-Security-%7C-Role-Permissions-%7C-Payroll-Management-System?node-id=25-2132&t=UPkhz16HBSzWY5gD-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=25%3A2132"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block text-coral hover:underline">
+                        className="inline-block text-coral-400 hover:underline">
                         View interactive prototype
                     </a>
                     <div className="place-self-center relative w-full max-w-3xl aspect-video border border-gray-300 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-150 overflow-hidden">
@@ -79,7 +79,7 @@ export default function Page() {
                         href="https://www.figma.com/proto/TrKWtC6dhoeVy9oH0SsJi5/Wireframe-and-Prototype-%7C-Define-Scope-%7C-Project-Scope-Management-System?page-id=309%3A18173&node-id=309-24339&viewport=735%2C-300%2C0.02&t=MeFGGcmf502wsK6F-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=309%3A24339"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block text-coral hover:underline">
+                        className="inline-block text-coral-400 hover:underline">
                         View updated prototype
                     </a>
                     <div className="place-self-center relative w-full max-w-3xl aspect-video border border-gray-300 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-150 overflow-hidden">
@@ -103,7 +103,7 @@ export default function Page() {
                         href="https://www.figma.com/proto/llDUwWbVOtD6A6JDAwz0Dq/Receive-from-Supplier-%7C-Receive---Sort-%7C-Clerk-%7C-Retail-Inventory-Management-System?node-id=83-5016&t=uuLVL5CSMuWIdZou-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=83%3A5016&show-proto-sidebar=1"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-block text-coral hover:underline">
+                        className="inline-block text-coral-400 hover:underline">
                         View mobile prototype
                     </a>
                     <div className="place-self-center relative w-full max-w-48 aspect-[9/20] border border-gray-300 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-150 overflow-hidden">
