@@ -15,9 +15,14 @@ export default function Page() {
             value: "Vercel",
         },
     ]
+
+    const links = [
+        { label: "🔗 Live Demo", href: "https://parking-system-theta-two.vercel.app/" },
+        { label: "⚙️ Github Repository", href: "https://github.com/zobhhz/parking-system" },
+    ]
     return (
         <>
-            <PageHeader title="Parking Lot Management System" details={details} />
+            <PageHeader title="Parking Lot Management System" details={details} links={links} />
             {/* SUMMARY */}
             <div className="w-full max-w-7xl mx-auto p-10 sm:px-20 space-y-4">
                 <h2 className="font-bold text-xl">Summary</h2>

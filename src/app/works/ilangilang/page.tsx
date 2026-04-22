@@ -19,12 +19,19 @@ export default function Page() {
             value: "TypeScript, Next.js, TailwindCSS, Contentful (REST API), Vercel",
         },
     ]
+
+    const links = [{ label: "🔗 View Project", href: "https://ilangilangrestaurant.com/" }]
     return (
         <>
-            <PageHeader title="Ilang-Ilang Restaurant" details={details} />
+            <PageHeader
+                title="Ilang-Ilang Restaurant"
+                details={details}
+                subtitle="Mobile-first website design & development"
+                links={links}
+            />
             {/* SUMMARY */}
             <div className="w-full max-w-7xl mx-auto p-10 sm:px-20 space-y-4">
-                <h2 className="font-bold text-xl">Summary</h2>
+                <h2 className="font-bold text-xl">Ilang-Ilang Restaurant: Full-stack Design & Development</h2>
                 <p className="text-lg leading-snug lg:leading-normal whitespace-pre-line lg:whitespace-normal">
                     Developed and launched a fully responsive website for a family-owned restaurant in Binondo, helping
                     them showcase their menu and reach more customers online.{'\n\n'} The site features over 300 menu items
