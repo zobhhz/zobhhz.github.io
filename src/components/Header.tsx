@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Header() {
     return (
-        <header className="flex justify-between items-center p-6 text-lg lg:text-base">
+        <header className="flex justify-between items-center px-4 py-6 text-lg lg:text-base">
             <h1>
                 <Link href="/" id="title-name" title="Alyssa Palmares (✿◡‿◡)" className="font-bold hover:no-underline">
                     <Image

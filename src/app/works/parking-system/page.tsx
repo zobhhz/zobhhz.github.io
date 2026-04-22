@@ -24,7 +24,7 @@ export default function Page() {
         <>
             <PageHeader title="Parking Lot Management System" details={details} links={links} />
             {/* SUMMARY */}
-            <div className="w-full max-w-7xl mx-auto p-10 sm:px-20 space-y-4">
+            <div className="w-full max-w-7xl mx-auto px-4 py-10 sm:px-20 space-y-4">
                 <h2 className="font-bold text-xl">Summary</h2>
                 <p className="text-lg leading-snug lg:leading-normal">
                     This project is a web-based parking management system built with Next.js (React-based) and TypeScript. It assigns parking slots

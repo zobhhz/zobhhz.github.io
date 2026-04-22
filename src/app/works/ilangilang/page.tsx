@@ -38,7 +38,7 @@ export default function Page() {
                 links={links}
             />
             {/* SUMMARY */}
-            <div className="w-full max-w-7xl mx-auto text-smokeyblack p-10 sm:px-20">
+            <div className="w-full max-w-7xl mx-auto text-smokeyblack px-4 py-10 sm:px-20">
                 <h2 className="font-bold text-xl mb-4">Ilang-Ilang Restaurant: Full-stack Design & Development</h2>
                 <p className="text-lg leading-snug lg:leading-normal whitespace-pre-line lg:whitespace-normal">
                     Developed and launched a fully responsive website for a family-owned restaurant in Binondo, helping

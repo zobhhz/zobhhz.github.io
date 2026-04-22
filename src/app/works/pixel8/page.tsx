@@ -23,7 +23,7 @@ export default function Page() {
     return (
         <>
             <PageHeader title="Pixel8 Web Consultancy & Solutions Inc." details={details} />
-            <div className="w-full max-w-7xl mx-auto p-10 sm:p-20 space-y-10 md:space-y-20">
+            <div className="w-full max-w-7xl mx-auto px-4 py-10 sm:p-20 space-y-10 md:space-y-20">
                 {/* SUMMARY */}
                 <div className="space-y-4">
                     <h2 className="font-bold text-xl">Summary</h2>

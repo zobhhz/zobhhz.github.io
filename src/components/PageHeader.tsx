@@ -9,7 +9,7 @@ export default function PageHeader({ title, details, subtitle, links }: Readonly
     const colClass = details.length >= 4 ? "lg:grid-cols-4" : "lg:grid-cols-3";
     return (
         <section className="w-full bg-coral-50">
-            <div className="flex flex-col items-start justify-center p-10 sm:p-20 space-y-10 max-w-7xl mx-auto">
+            <div className="flex flex-col items-start justify-center px-4 py-10 sm:p-20 space-y-10 max-w-7xl mx-auto">
                 <div className="text-coral-950">
                     <h1 className="font-bold text-2xl lg:text-4xl">{title}</h1>
                     {subtitle && <p className="italic text-lg mt-2">{subtitle}</p>}
