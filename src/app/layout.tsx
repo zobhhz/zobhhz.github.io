@@ -15,15 +15,16 @@ const atkinsonHyperlegible = Atkinson_Hyperlegible({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://zobhhz.github.io'),
+  metadataBase: new URL('https://alyssajaye.com'),
   title: "Alyssa Palmares",
   description: "Alyssa's Personal Website and Portfolio",
   openGraph: {
     type: "website",
-    images: '/opengraph-image.png',
+    images: ['/opengraph-image.png'],
     title: "Alyssa Palmares",
+    siteName: "Alyssa Palmares",
     description: "Alyssa's Personal Website and Portfolio",
-    url: 'https://zobhhz.github.io',
+    url: 'https://alyssajaye.com',
   }
 };
 
