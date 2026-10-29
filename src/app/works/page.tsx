@@ -1,6 +1,11 @@
 import { Card, CardExternal, CardInternal } from "@/components/Card";
 import works from "@/data/works.json";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
+// Remove this opt-out after verifying the segment passes validation without it.
+// See: https://nextjs.org/docs/app/guides/migrating-to-cache-components
+// export const instant = false;
+
 export default function Works() {
     return (
         <div className="flex flex-col items-center justify-center p-8 sm:p-20 space-y-20">

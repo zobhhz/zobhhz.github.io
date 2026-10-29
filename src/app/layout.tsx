@@ -7,6 +7,11 @@ import Header from "@/components/Header";
 import Footer from '@/components/Footer';
 import "./globals.css";
 
+// @next-codemod-ignore Cache Components adoption: this segment temporarily allows blocking.
+// Remove this opt-out after verifying the segment passes validation without it.
+// See: https://nextjs.org/docs/app/guides/migrating-to-cache-components
+// export const instant = false;
+
 const atkinsonHyperlegible = Atkinson_Hyperlegible({
   weight: ['400', '700'], // Regular (400) and Bold (700)
   style: ['normal', 'italic'],
